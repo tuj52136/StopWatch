@@ -33,10 +33,9 @@ class Stopwatch{
     }
     
     var elapsedTimeAsString : String{
-        let formatter = DateComponentsFormatter()
-        formatter.allowedUnits = [.nanosecond]
-       
-        return formatter.string(from: elapsedTime)!
-        
+        let minutes = String(format: "%02d", Int(elapsedTime) / 60)
+        let seconds = String(format: "%02d", Int(elapsedTime) % 60)
+        let fractionalSeconds = String(format: "%01d", Int(elapsedTime * 10) % 10)
+        return minutes + ":" + seconds + "." + fractionalSeconds
     }
 }
