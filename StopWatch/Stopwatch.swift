@@ -9,7 +9,7 @@
 import Foundation
 class Stopwatch{
     
-    private var startTime : Date?
+    private var startTime : NSDate?
     public var isRunning = false
     
     var elapsedTime : TimeInterval {
@@ -23,7 +23,7 @@ class Stopwatch{
     
     func start(){
         isRunning = true
-        startTime = Date()
+        startTime = NSDate()
     }
     
     

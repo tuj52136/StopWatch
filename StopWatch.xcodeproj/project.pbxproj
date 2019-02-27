@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D03E81642226D92A00B4CBFD /* Background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D03E81632226D92900B4CBFD /* Background.jpg */; };
 		D0745474221F0B4700740C7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0745473221F0B4700740C7B /* AppDelegate.swift */; };
 		D0745476221F0B4700740C7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0745475221F0B4700740C7B /* ViewController.swift */; };
 		D0745479221F0B4700740C7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0745477221F0B4700740C7B /* Main.storyboard */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D03E81632226D92900B4CBFD /* Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Background.jpg; path = ../../Downloads/Background.jpg; sourceTree = "<group>"; };
+		D03E81652226D9AF00B4CBFD /* Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Background.jpg; sourceTree = "<group>"; };
 		D0745470221F0B4700740C7B /* StopWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StopWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0745473221F0B4700740C7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0745475221F0B4700740C7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +43,7 @@
 		D0745467221F0B4700740C7B = {
 			isa = PBXGroup;
 			children = (
+				D03E81632226D92900B4CBFD /* Background.jpg */,
 				D0745472221F0B4700740C7B /* StopWatch */,
 				D0745471221F0B4700740C7B /* Products */,
 			);
@@ -62,6 +66,7 @@
 				D0745485221F0D5A00740C7B /* Stopwatch.swift */,
 				D074547A221F0B4800740C7B /* Assets.xcassets */,
 				D074547C221F0B4800740C7B /* LaunchScreen.storyboard */,
+				D03E81652226D9AF00B4CBFD /* Background.jpg */,
 				D074547F221F0B4900740C7B /* Info.plist */,
 			);
 			path = StopWatch;
@@ -126,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D074547E221F0B4800740C7B /* LaunchScreen.storyboard in Resources */,
+				D03E81642226D92A00B4CBFD /* Background.jpg in Resources */,
 				D074547B221F0B4800740C7B /* Assets.xcassets in Resources */,
 				D0745479221F0B4700740C7B /* Main.storyboard in Resources */,
 			);
