@@ -26,6 +26,9 @@ class ViewController: UIViewController {
 
     @IBAction func startButtonTapped(_ sender: UIButton) {
         Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(ViewController.updateElapsedTimeLabel), userInfo: nil, repeats: true)
+
+////         Cleaner using swift closure
+//        Timer.scheduledTimer(withTimeInterval: 0.1, repeats: true){ self.updateElapsedTimeLabel(timer: $0) }
         
         stopwatch.start()
     }
