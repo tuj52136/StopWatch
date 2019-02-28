@@ -7,23 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D03E81642226D92A00B4CBFD /* Background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D03E81632226D92900B4CBFD /* Background.jpg */; };
+		9CE81D28222763BB004236DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CE81D27222763BA004236DF /* Assets.xcassets */; };
 		D0745474221F0B4700740C7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0745473221F0B4700740C7B /* AppDelegate.swift */; };
 		D0745476221F0B4700740C7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0745475221F0B4700740C7B /* ViewController.swift */; };
 		D0745479221F0B4700740C7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0745477221F0B4700740C7B /* Main.storyboard */; };
-		D074547B221F0B4800740C7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D074547A221F0B4800740C7B /* Assets.xcassets */; };
 		D074547E221F0B4800740C7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D074547C221F0B4800740C7B /* LaunchScreen.storyboard */; };
 		D0745486221F0D5A00740C7B /* Stopwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0745485221F0D5A00740C7B /* Stopwatch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D03E81632226D92900B4CBFD /* Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Background.jpg; path = ../../Downloads/Background.jpg; sourceTree = "<group>"; };
+		9CE81D27222763BA004236DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../Downloads/Assets.xcassets; sourceTree = "<group>"; };
 		D03E81652226D9AF00B4CBFD /* Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Background.jpg; sourceTree = "<group>"; };
 		D0745470221F0B4700740C7B /* StopWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StopWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0745473221F0B4700740C7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0745475221F0B4700740C7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D0745478221F0B4700740C7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D074547A221F0B4800740C7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D074547D221F0B4800740C7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D074547F221F0B4900740C7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0745485221F0D5A00740C7B /* Stopwatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stopwatch.swift; sourceTree = "<group>"; };
@@ -43,7 +41,6 @@
 		D0745467221F0B4700740C7B = {
 			isa = PBXGroup;
 			children = (
-				D03E81632226D92900B4CBFD /* Background.jpg */,
 				D0745472221F0B4700740C7B /* StopWatch */,
 				D0745471221F0B4700740C7B /* Products */,
 			);
@@ -64,7 +61,7 @@
 				D0745475221F0B4700740C7B /* ViewController.swift */,
 				D0745477221F0B4700740C7B /* Main.storyboard */,
 				D0745485221F0D5A00740C7B /* Stopwatch.swift */,
-				D074547A221F0B4800740C7B /* Assets.xcassets */,
+				9CE81D27222763BA004236DF /* Assets.xcassets */,
 				D074547C221F0B4800740C7B /* LaunchScreen.storyboard */,
 				D03E81652226D9AF00B4CBFD /* Background.jpg */,
 				D074547F221F0B4900740C7B /* Info.plist */,
@@ -131,8 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D074547E221F0B4800740C7B /* LaunchScreen.storyboard in Resources */,
-				D03E81642226D92A00B4CBFD /* Background.jpg in Resources */,
-				D074547B221F0B4800740C7B /* Assets.xcassets in Resources */,
+				9CE81D28222763BB004236DF /* Assets.xcassets in Resources */,
 				D0745479221F0B4700740C7B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,7 +287,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MBB7THA55R;
 				INFOPLIST_FILE = StopWatch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,7 +306,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MBB7THA55R;
 				INFOPLIST_FILE = StopWatch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
